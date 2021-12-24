@@ -1,0 +1,23 @@
+{
+    "name": "telegram-events-deleter",
+    "version": "1.0.0",
+    "description": "Telegram bot to delete system messages",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "clear && node src/app.js"
+    },
+    "keywords": [
+        "bot",
+        "chat",
+        "telegram",
+        "delete",
+        "events",
+        "system messages"
+    ],
+    "author": "ExposedCat",
+    "license": "GPL-3.0-or-later",
+    "dependencies": {
+        "telegraf": "^4.4.2"
+    },
+    "type": "module"
+}
